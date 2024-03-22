@@ -1,0 +1,9 @@
+name: widget
+description: A Mason brick for creating simple Flutter widgets, with an optional consumer flag.
+version: 0.1.0+1
+vars:
+  name:
+    type: string
+  consumer:
+    type: boolean
+    default: false
