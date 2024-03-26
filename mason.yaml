@@ -11,3 +11,5 @@ bricks:
     path: ./widget
   model:
     path: ./model
+  api:
+    path: ./api
