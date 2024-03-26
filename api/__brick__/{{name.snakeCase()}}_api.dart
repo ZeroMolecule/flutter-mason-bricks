@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 
-part '{{name}}_api.g.dart';
+part '{{name.snakeCase()}}_api.g.dart';
 
 @RestApi()
-abstract class _{{pascalCase name}}API {
-  factory _{{pascalCase name}}API(Dio dio) = __{{pascalCase name}}API;
+abstract class _{{name.pascalCase()}}API {
+  factory _{{name.pascalCase()}}API(Dio dio) = __{{name.pascalCase()}}API;
 }
 
-class {{pascalCase name}}API extends __{{pascalCase name}}API {
-  {{pascalCase name}}API(Dio dio) : super(dio);
+class {{name.pascalCase()}}API extends __{{name.pascalCase()}}API {
+  {{name.pascalCase()}}API(Dio dio) : super(dio);
 }
