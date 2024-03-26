@@ -9,5 +9,5 @@ abstract class _{{name.pascalCase()}}API {
 }
 
 class {{name.pascalCase()}}API extends __{{name.pascalCase()}}API {
-  {{name.pascalCase()}}API(Dio dio) : super(dio);
+  {{name.pascalCase()}}API(super.dio);
 }
