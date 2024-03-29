@@ -13,3 +13,7 @@ bricks:
     path: ./model
   api:
     path: ./api
+  provider:
+    path: ./provider
+  class_provider:
+    path: ./class_provider

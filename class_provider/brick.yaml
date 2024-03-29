@@ -1,0 +1,12 @@
+name: class_provider
+description: A Riverpod class provider
+version: 0.1.0+1
+vars:
+  name:
+    type: string
+    description: Provider name
+    prompt: Provide name for your provider
+  type:
+    type: string
+    description: Provider type
+    prompt: Provide type for your provider

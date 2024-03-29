@@ -1,0 +1,17 @@
+name: provider
+description: A Riverpod normal provider
+version: 0.1.0+1
+vars:
+  name:
+    type: string
+    description: Provider name
+    prompt: Provide name for your provider
+  type:
+    type: string
+    description: Provider type
+    prompt: Provide type for your provider
+  keepAlive:
+    type: boolean
+    description: Keep provider alive
+    prompt: Keep provider alive
+    default: false
